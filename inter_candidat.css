@@ -1,0 +1,103 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 40px;
+    margin-top: 5em;
+    text-shadow: 3px 3px 6px #ccc;
+
+  }
+  
+  .form-group {
+    margin-top: 2em;
+  }
+  
+  .btn {
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 1em;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #33798f;
+    border-color: #3dadcf;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  
+  .btn-success {
+    background-color: #33798f;
+    border-color: #3dadcf;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  
+  .btn-info {
+    background-color: #33798f;
+    border-color: #3dadcf;
+    color: #fff;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+  
+  
+  /* Style pour la barre de navigation */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333eb;
+    color: #fff;
+    padding: 33px;
+}
+
+
+/* Style pour l'image de profil */
+.prof {
+    
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right:30px;
+    box-shadow: 3px 3px 6px #ccc;
+
+}
+
+/* Style pour le logo de l'application */
+.app-logo {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    background-color: #33798f;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px #ccc;
+    position: absolute;
+    left: 22px;
+
+  }
+  
+

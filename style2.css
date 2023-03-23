@@ -1,0 +1,95 @@
+/* Réinitialisation des styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles de base */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* Styles personnalisés */
+.cadre {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.saise {
+  position: relative;
+}
+
+.saise input[type="text"],
+.saise input[type="email"],
+.saise input[type="number"],
+.saise textarea {
+  margin-bottom: 10px;
+}
+
+.saise label:after {
+  content: " *";
+  color: red;
+}
+
+.saise input[type="text"]:focus,
+.saise input[type="email"]:focus,
+.saise input[type="number"]:focus,
+.saise textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+}

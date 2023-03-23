@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+ background:linear-gradient(rgb(87, 144, 194),rgb(168, 164, 164),rgb(108, 182, 55));
+  box-shadow: 0px 0px 20px #999999;
+ font-family: Arial, sans-serif;
+}
+
+/* Titres principaux */
+h1, h2 {
+ color: #2f3173;
+ font-size: 2rem;
+ font-weight: bold;
+ border-bottom: 1px solid #ccc;
+ padding-bottom: 10px;
+}
+
+/* Sections du formulaire */
+label {
+ font-weight: bold;
+ display: block;
+ margin-top: 20px;
+ margin-left: 42px;
+ 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 5px;
+ margin-bottom: 20px;
+ font-size: 1.2rem;
+}
+
+/* Boutons */
+button[type="button"],
+button[type="submit"] {
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ border-radius: 4px;
+ padding: 10px 20px;
+ font-size: 1.2rem;
+ margin-top: 20px;
+ cursor: pointer;
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+ background-color: #0069d9;
+}
+
+/* Styles spécifiques pour certaines parties du formulaire */
+#experiences .experience,
+#competences .competence,
+#educations .education,
+#loisirs .loisir {
+ border: 1px solid #ccc;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+#experiences input[type="text"],
+#experiences input[type="date"],
+#experiences textarea,
+#competences input[type="text"],
+#educations input[type="text"],
+#educations input[type="date"],
+#loisirs input[type="text"] {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#competences select {
+ margin-top: 10px;
+}
+
+/* Styles pour les niveaux de compétence */
+option[value="Débutant"] {
+ color: #007bff;
+}
+
+option[value="Intermédiaire"] {
+ color: #ffc107;
+}
+
+option[value="Avancé"] {
+ color: #28a745;
+}

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins' , sans-serif;
+}
+section{
+   justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0, 0.5),rgba(0, 0,0, 0.5)), url("comment-refuser-candidature-recrutement-exemple-mail-refus-1024x682.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+   
+}
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   
+   }
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: #1790a5;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#e8e0e0;
+}
+
+.container .content h1 span{
+   color:#1790a5;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: lowercase;
+}
+
+.container .content .btn:hover{
+   background: #1790a5;
+}
+
+.form-container{
+   position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15%;
+}
+
+.form-value{
+   position: relative;
+    width: 467px;
+    height: 567px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15%;
+}
+
+
+h3{
+   font-size: 40px;
+   color: #191819;
+   text-align: center;
+   text-decoration-style: double;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   text-shadow: 2px 2px 0 #1790a5;
+
+}
+
+h2{
+   font-size: 60px;
+   color: #191819;
+   text-align: center;
+   text-decoration-style: double;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   text-shadow: 2px 2px 0 #11525d;
+
+}
+
+.inputbox{
+   position: relative;
+   margin: 30px 0 30px 44px;
+   width: 310px;
+   border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+   position: absolute;
+   top: 50%;
+   left: 5px;
+   transform: translateY(-50%);
+   color: black;
+   font-size: 18px;
+   pointer-events: none;
+   transition: .5s;
+}
+
+.info{
+   color: white;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+   width: 100px;
+   height: 50px;
+   background: transparent;
+   border: none;
+   outline: none;
+   font-size: 1em;
+   padding: 0 35px 0 5px;
+   color: #000000;
+
+
+}
+.inputbox ion-icon{
+   position: absolute;
+   right: 8px;
+   color: black;
+   font-size: 1.2em;
+   top: 20px;
+}
+
+.form-btn{
+   width: 80%;
+   height: 40px;
+   margin: 0 42px 0 40px;
+   border-radius: 40px;
+   color: #282525;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 1em;
+   font-weight: 600;
+}
+
+select{
+   width: 30%;
+   height: 35px;
+   top: 30px;
+   margin: 0 42px 15px 40px;
+   border-radius: 40px;
+   color: black;
+   border: none;
+   text-align: center;
+   cursor: pointer;
+   font-size: 1em;
+   font-weight: 600;
+   background-color: transparent;
+   background: grey;
+}
+
+.register{
+   font-size: .5cm;
+   color: #2b6771;
+   text-align: center;
+   margin: 25px 0 0px;
+}
+
+.register p a{
+   text-decoration: none;
+   color: #2b6771;
+   font-weight: 600;
+}
+
+.register p a:hover{
+   text-decoration: underline;
+   text-decoration-color: wheat;
+}
+
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#2b6771;
+}
+
+.form-value form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#2b6771;
+}
+
+/*.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}*/
+
+
+.logo {
+   width: 200px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.logo img {
+   width: 100%;
+   max-width: 200px;
+   height: auto;
+}
+
+.app{
+right: 19%;
+font-weight: 900;
+font-size: 50px;
+width:500px;
+position: relative;
+transform: translateY(-350px);
+color:#1790a5;
+text-shadow: 10px 10px 10px #333 ;
+
+}
